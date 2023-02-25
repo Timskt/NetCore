@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="config\database\mysql" />
+      <Folder Include="config\mq" />
+      <Folder Include="enums" />
+      <Folder Include="models\database\mongodb" />
+      <Folder Include="models\database\mysql" />
+      <Folder Include="models\mq\kafka" />
+      <Folder Include="models\mq\mqtt" />
+      <Folder Include="utils\messageBus" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+      <PackageReference Include="HandyControls" Version="3.4.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3-beta1" />
+    </ItemGroup>
+
+</Project>
